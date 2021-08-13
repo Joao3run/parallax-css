@@ -28,25 +28,25 @@ body {
     height: 50%;
     z-index: 2;
 }
-.toggle.left.top:hover ~ .content-container  {
+.toggle.left.top:active, .toggle.left.top:hover ~ .content-container  {
     --angleX: 8deg;
     --angleY: -25deg;
     --angleImgX: 8deg;
     --angleImgY: -25deg;
 }
-.toggle.left.bottom:hover ~ .content-container {
+.toggle.left.bottom:active, .toggle.left.bottom:hover ~ .content-container {
     --angleX: -8deg;
     --angleY: -25deg;
     --angleImgX: -8deg;
     --angleImgY: -25deg;
 }
-.toggle.right.top:hover ~ .content-container {
+.toggle.right.top:active, .toggle.right.top:hover ~ .content-container {
     --angleX: 8deg;
     --angleY: 25deg;
     --angleImgX: 8deg;
     --angleImgY: 25deg;
 }
-.toggle.right.bottom:hover ~ .content-container {
+.toggle.right.bottom:active, .toggle.right.bottom:hover ~ .content-container {
     --angleX: -8deg;
     --angleY: 25deg;
     --angleImgX: -8deg;
