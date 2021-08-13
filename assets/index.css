@@ -97,7 +97,7 @@ img {
         width: 50%;
     }
 
-    .team-name:hover {
+    .team-name:hover, .team-name:active {
         transform: scale3d(1.1, 1.1, 1.3);
     }
 }
